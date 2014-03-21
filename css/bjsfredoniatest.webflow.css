@@ -1,0 +1,365 @@
+body {
+  background-color: black;
+  background-image: none;
+  font-family: brandon-grotesque, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-link {
+  margin-top: 0px;
+  padding: 0px 10px;
+  color: white;
+  font-size: 31px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #ff4a4a;
+}
+.links {
+  margin-top: 79px;
+}
+.barhourshead {
+  padding-top: 56px;
+  border: 0px solid black;
+  font-size: 48px;
+  text-align: center;
+}
+.aboutushead {
+  padding-top: 205px;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: black 0px 0px 50px;
+}
+.focus {
+  margin-top: 11px;
+  margin-left: 38px;
+}
+.barhourstext {
+  margin-top: 0px;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.aboutustext {
+  margin-top: 0px;
+  padding: 30px 11px 6px;
+  border: 0px dotted white;
+  border-radius: 20px;
+  font-size: 23px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+}
+.logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.mainfocus {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 85px;
+  float: none;
+  text-align: left;
+}
+.altcolor {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #171717;
+}
+.blacksect {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #474747 white;
+  background-image: none;
+}
+.blacksect._1 {
+  background-color: black;
+  background-image: url(../images/289776_10151066971320607_1945002617_o.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.blacksect._2 {
+  background-image: url(../images/679837_10152284867245607_1930118032_o.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.blacksect._3 {
+  background-image: url(../images/665295_10152284865320607_1527918844_o.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu {
+  margin-left: 0px;
+  padding: 24px;
+  float: none;
+  border: 0px solid black;
+  border-radius: 0px;
+  background-color: #ff4a4a;
+  box-shadow: white 0px 0px 6px -25px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: white;
+  font-size: 50px;
+  line-height: 47px;
+  text-decoration: none;
+}
+.menu:hover {
+  box-shadow: white 0px 0px 6px -25px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: black;
+}
+.mid {
+  color: white;
+  font-weight: 400;
+}
+.menucol {
+  padding-top: 57px;
+  text-align: center;
+}
+.drinks {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px dotted white;
+  border-radius: 0px;
+  text-align: center;
+}
+.drinksmenu {
+  padding-bottom: 14px;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+.whereheading {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.map {
+  text-align: center;
+}
+.menuheading {
+  padding-bottom: 15px;
+  font-size: 49px;
+  text-align: center;
+}
+.menuheading.hours {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+.submit-button {
+  float: right;
+  border: 1px solid white;
+  text-align: left;
+}
+.submit-button:hover {
+  border-color: red;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: white;
+}
+.kitchenhourstext {
+  text-align: center;
+}
+.aboutuscontain {
+  border: 0px solid black;
+  border-radius: 20px;
+}
+.socialmedia._1 {
+  margin: 45px 27px 49px 135px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.socialmedia._2 {
+  margin-top: 45px;
+  margin-bottom: 49px;
+  margin-left: 55px;
+}
+.email {
+  padding-top: 129px;
+  font-size: 35px;
+  text-align: center;
+}
+.email a {
+  color: white;
+  text-decoration: none;
+}
+.twitterfeed {
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+.about {
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.khours {
+  background-color: rgba(0, 0, 0, 0.63);
+}
+@media (max-width: 991px) {
+  .nav-link {
+    padding-left: 0px;
+    font-size: 25px;
+  }
+  .links {
+    margin-top: 54px;
+  }
+  .aboutushead {
+    padding-top: 279px;
+    text-shadow: black 0px 0px 50px;
+  }
+  .barhourstext {
+    font-size: 19px;
+  }
+  .aboutustext {
+    font-size: 20px;
+  }
+  .logo {
+    margin-left: -2px;
+  }
+  .mainfocus {
+    padding-left: 0px;
+  }
+  .map {
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-right: 0px;
+  }
+  .menuheading {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 31px;
+  }
+  .socialmedia._1 {
+    margin-top: 15px;
+    margin-left: 104px;
+  }
+  .socialmedia._2 {
+    margin-top: 16px;
+    margin-left: 1px;
+  }
+}
+@media (max-width: 767px) {
+  .links {
+    padding-left: 47px;
+  }
+  .barhourshead {
+    padding-top: 0px;
+  }
+  .aboutushead {
+    position: static;
+    display: none;
+    overflow: hidden;
+    padding-top: 0px;
+    clear: none;
+    text-shadow: black 0px 0px 50px;
+  }
+  .logo {
+    margin-bottom: -43px;
+    padding-bottom: 0px;
+    padding-left: 130px;
+  }
+  .menucol {
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+  .menuheading {
+    padding-bottom: 0px;
+  }
+  .socialmedia._1 {
+    margin-left: 214px;
+  }
+  .email {
+    padding-top: 32px;
+  }
+
+  .twitterfeed {
+    display: none;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    font-family: Rambla, sans-serif;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+  .links {
+    padding-left: 15px;
+  }
+  .logo {
+    margin-left: 7px;
+    padding-left: 0px;
+  }
+  .socialmedia._1 {
+    margin-left: 90px;
+  }
+  .email {
+    padding-top: 33px;
+    font-size: 29px;
+  }
+}
